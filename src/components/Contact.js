@@ -1,8 +1,7 @@
 import React from 'react'
 import './style.default.css';
 import './bootstrap-grid.css';
-import './bootstrap.css';
-import './bootstrap-reboot.css';
+import { AiFillGithub } from 'react-icons/ai'
 
 
 export default function Contact(props) {
@@ -20,7 +19,7 @@ export default function Contact(props) {
             <div className="col-lg-3 col-md-6 mb-4 mb-lg-0"><a className={props.darkMode ? "px-4 py-5 text-center contact-item-dark shadow-sm d-block reset-anchor" : "px-4 py-5 text-center contact-item shadow-sm d-block reset-anchor"}><i className="fas fa-phone fa-2x mb-4"></i>
               <h4 className={props.darkMode ? "dark-text contact-item-title h5 text-uppercase" : "contact-item-title h5 text-uppercase"}>Phone</h4>
               <p className={props.darkMode ? "dark-text text-small mb-0" : "text-small mb-0"}>318-286-8589</p></a></div>
-          <div className="col-lg-3 col-md-6 mb-4 mb-lg-0"><a className={props.darkMode ? "px-4 py-5 text-center contact-item-dark shadow-sm d-block reset-anchor" : "px-4 py-5 text-center contact-item shadow-sm d-block reset-anchor"} href="https://github.com/Number279/"><i className="fab fa-github fa-2x mb-4"></i>
+          <div className="col-lg-3 col-md-6 mb-4 mb-lg-0"><a className={props.darkMode ? "px-4 py-5 text-center contact-item-dark shadow-sm d-block reset-anchor" : "px-4 py-5 text-center contact-item shadow-sm d-block reset-anchor"} href="https://github.com/Number279/"><AiFillGithub className="fa-2x mb-4"/>
               <h4 className={props.darkMode ? "dark-text contact-item-title h5 text-uppercase" : "contact-item-title h5 text-uppercase"}>Github</h4>
               <p className={props.darkMode ? "dark-text text-small mb-0" : "text-small mb-0"}>GitHub/Number279</p></a></div>
           <div className="col-lg-3 col-md-6 mb-4 mb-lg-0"><a className={props.darkMode ? "px-4 py-5 text-center contact-item-dark shadow-sm d-block reset-anchor" : "px-4 py-5 text-center contact-item shadow-sm d-block reset-anchor"}><i className="fas fa-envelope fa-2x mb-4"></i>

@@ -1,8 +1,6 @@
 import React from 'react'
 import './style.default.css';
 import './bootstrap-grid.css';
-import './bootstrap.css';
-import './bootstrap-reboot.css';
 
 export default function Expertise(props) {
     return (

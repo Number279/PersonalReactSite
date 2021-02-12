@@ -1,11 +1,7 @@
-import React, {useEffect, useState} from 'react'
-import './style.default.css';
+import React, {useEffect, useState} from 'react';
 import './bootstrap-grid.css';
 import './bootstrap.css';
-import './bootstrap-reboot.css';
-import './bootstrap-grid.min.css';
-import './bootstrap-reboot.min.css'
-import './bootstrap.min.css';
+import { FaBars } from 'react-icons/fa';
 import Logo from './favicon.png';
 import { Link, animateScroll as scroll, scrollSpy} from "react-scroll";
 import About from './About';
@@ -15,8 +11,7 @@ import Experience from './Experience';
 import Expertise from './Expertise';
 import Hero from './Hero';
 import Footer from './Footer';
-import '../../node_modules/font-awesome/css/font-awesome.min.css';
-import '../../node_modules/font-awesome/css/font-awesome.css'
+
 
 
 export default function Layout() {
@@ -33,8 +28,8 @@ export default function Layout() {
         <header className={darkMode ? "dark-background dark-text header" : "header"}>
         <nav className={darkMode ? "dark-background dark-text navbar navbar-expand-lg fixed-top" : "navbar navbar-expand-lg fixed-top"}>
           <div className={darkMode ? "dark-background dark-text container" : "container"}><a className="navbar-brand" href="#"><img src={Logo} alt="logo" width={45} /></a>
-            <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i src={"fas fa-bars"} /></button>
-            <div className={darkMode ? "dark-text dark-background collapse navbar-collapse" : "collapse navbar-collapse"} id="navbarSupportedContent">
+            <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><FaBars /></button>
+            <div className={darkMode ? "darkHover dark-text dark-background collapse navbar-collapse" : "collapse navbar-collapse"} id="navbarSupportedContent">
               <ul className={darkMode ? "navbar-nav ml-auto dark-background dark-text"  : "navbar-nav ml-auto"}>
               <li className={darkMode ? "nav-item nav-link dark-text dark-background" : "nav-item nav-link"}>
                 <Link 

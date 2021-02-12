@@ -1,8 +1,6 @@
 import React from 'react'
 import './style.default.css';
 import './bootstrap-grid.css';
-import './bootstrap.css';
-import './bootstrap-reboot.css';
 import Sawyer from './sawyer.jpeg';
 
 export default function Hero() {
