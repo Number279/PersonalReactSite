@@ -31,7 +31,7 @@ export default function Layout() {
             <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><FaBars /></button>
             <div className={darkMode ? "darkHover dark-text dark-background collapse navbar-collapse" : "collapse navbar-collapse"} id="navbarSupportedContent">
               <ul className={darkMode ? "navbar-nav ml-auto dark-background dark-text"  : "navbar-nav ml-auto"}>
-              <li className={darkMode ? "nav-item nav-link dark-text dark-background" : "nav-item nav-link"}>
+              <a href="#"><li className={darkMode ? "nav-item nav-link dark-text dark-background" : "nav-item nav-link"}>
                 <Link 
                 activeClass="viewed"
                 to="hero"
@@ -39,8 +39,8 @@ export default function Layout() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                >Home</Link></li>
-                <li className={darkMode ? "nav-item nav-link dark-text dark-background" : "nav-item nav-link"}>
+                >Home</Link></li></a>
+                <a href="#about"><li className={darkMode ? "nav-item nav-link dark-text dark-background" : "nav-item nav-link"}>
                 <Link 
                 activeClass="viewed"
                 to="about"
@@ -48,8 +48,8 @@ export default function Layout() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                >About</Link></li>
-                <li className={darkMode ? "nav-item nav-link dark-text dark-background" : "nav-item nav-link"}>
+                >About</Link></li></a>
+                <a href="#expertise"><li className={darkMode ? "nav-item nav-link dark-text dark-background" : "nav-item nav-link"}>
                 <Link 
                 activeClass="viewed"
                 to="expertise"
@@ -57,8 +57,8 @@ export default function Layout() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                >Expertise</Link></li>
-                <li className={darkMode ? "nav-item nav-link dark-text dark-background" : "nav-item nav-link"}>
+                >Expertise</Link></li></a>
+                <a href="#education"><li className={darkMode ? "nav-item nav-link dark-text dark-background" : "nav-item nav-link"}>
                 <Link 
                 activeClass="viewed"
                 to="education"
@@ -66,8 +66,8 @@ export default function Layout() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                >Education</Link></li>
-                <li className={darkMode ? "nav-item nav-link dark-text dark-background" : "nav-item nav-link"}>
+                >Education</Link></li></a>
+                 <a href="#experience"><li className={darkMode ? "nav-item nav-link dark-text dark-background" : "nav-item nav-link"}>
                 <Link 
                 activeClass="viewed"
                 to="experience"
@@ -75,9 +75,8 @@ export default function Layout() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                >Experience</Link></li>
-                <li className={darkMode ? "nav-item nav-link dark-text dark-background" : "nav-item nav-link"}>
-                <a>
+                >Experience</Link></li></a>
+                <a href="#contact"><li className={darkMode ? "nav-item nav-link dark-text dark-background" : "nav-item nav-link"}>
                 <Link 
                 activeClass="viewed"
                 to="contact"
@@ -85,7 +84,7 @@ export default function Layout() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                >Contact</Link></a></li>
+                >Contact</Link></li></a>
                 <form className={darkMode ? "nav-item nav-link dark-text" : "nav-item nav-link"}>Dark Mode 
                 <input
                   name="darkMode"
