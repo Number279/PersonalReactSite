@@ -203,6 +203,14 @@ export default function Layout() {
                     </Link>
                   </li>
                 </a>
+                <a href="https://drive.google.com/file/d/1gE3BHS6Uo5VSaXaVbGgEPX2peM1cb_bK/view?usp=sharing" target="_blank">
+                <form
+                  className={
+                    darkMode
+                      ? "nav-item nav-link dark-text"
+                      : "nav-item nav-link"
+                  }
+                >Download Resume</form></a>
                 <form
                   className={
                     darkMode

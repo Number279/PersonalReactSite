@@ -47,7 +47,7 @@ export default function About(props) {
           <strong className={props.darkMode ? "dark-text" : "text-dark"}>
             customized to your exact needs.
           </strong>
-          Using my knowledge of HTML, CSS, Bootstrap, Javascript, Java, and
+           Using my knowledge of HTML, CSS, Bootstrap, Javascript, Java, and
           React I will use your input to make sure that your website is both
           beautiful and functional.
         </p>

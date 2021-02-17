@@ -51,8 +51,8 @@ export default function Experience(props) {
               <div className="col-lg-7">
                 <p className={props.darkMode ? "dark-text" : "text-muted"}>
                   Went through the Tech Talent South Foundational Java course
-                  that covered html, css, javascript, typsecript, react, java,
-                  and springboot. During my time there I created full stack
+                  that covered Java, Javascript, React, HTML, CSS, 
+                  and Spring. During my time there I created full stack
                   applications that took advantage of all of these languages and
                   technologies from the front end to the back end. I have the
                   technical skills necessary to contribute on day one.
