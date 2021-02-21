@@ -24,7 +24,7 @@ export default function Hero() {
             <p className="text-shadow fade-in10">
               I am a highly motivated full stack
               <br />
-              developer and I would love to use my ,
+              developer and I would love to use my
               <br />
               creativity and drive to help your business
               <br />
