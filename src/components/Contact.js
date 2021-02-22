@@ -37,7 +37,7 @@ export default function Contact(props) {
                   ? "px-4 py-5 text-center contact-item-dark shadow-sm d-block reset-anchor"
                   : "px-4 py-5 text-center contact-item shadow-sm d-block reset-anchor"
               }
-              href="https://www.linkedin.com/in/sawyer-carroll-240634206/"
+              href="https://www.linkedin.com/in/sawyer-carroll/"
             >
               {props.darkMode ? (
                 <IconContext.Provider value={{ color: "white", size: "30px" }}>

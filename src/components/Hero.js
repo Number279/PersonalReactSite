@@ -19,10 +19,10 @@ export default function Hero() {
               Carroll
             </h1>
             <h2 className="h4 font-weight-normal mb-5 fade-in8">
-              Full Stack Developer
+              Software Developer
             </h2>
             <p className="text-shadow fade-in10">
-              I am a highly motivated full stack
+              I am a highly motivated software
               <br />
               developer and I would love to use my
               <br />

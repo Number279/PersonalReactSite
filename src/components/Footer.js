@@ -21,7 +21,7 @@ export default function Footer(props) {
             Sawyer Carroll{" "}
           </h2>
           <h6 className="text-primary text-uppercase mb-0 letter-spacing-3">
-            Web and App Developer
+            Software Developer
           </h6>
           <p className={props.darkMode ? "dark-text my-4" : "text-muted my-4"}>
             I look forward to helping your company achieve its goals.{" "}
