@@ -46,7 +46,7 @@ export default function Footer(props) {
             <li className="list-inline-item">
               <a
                 className="social-link"
-                href="https://www.linkedin.com/in/sawyer-carroll-240634206/"
+                href="https://www.linkedin.com/in/sawyer-carroll/"
               >
                 <FaLinkedinIn />
               </a>

@@ -83,9 +83,9 @@ export default function Expertise(props) {
                   : "text-muted text-small ml-4 pl-3"
               }
             >
-              I can use the Java language to create an app for your business
-              that will be accessible across any mobile platform allowing your
-              customers to take your company with them anywhere they go.
+              Using Java with build tools like Spring I can create a full backend system 
+              including API, database, and more to make sure your website or application 
+              has the functionality to meet your needs.  
             </p>
           </div>
         </div>
